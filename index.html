@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+
+    <title>numbers</title>
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+      <input id="the-num" type="number" value="0" />
+      <br />
+
+      <button id="add-it">add number</button>
+      <button id="remove-it">remove number</button>
+
+      <br />
+
+      <button id="average-them">average the numbers</button>
+      <button id="sum-them">sum the numbers</button>
+
+      <br />
+
+      <button id="show-them">show numbers</button>
+
+      <hr />
+
+      <text>your output:</text>
+      <pre id="your-output"></pre>
+
+      <hr />
+
+      <text>expected output:</text>
+      <pre id="secret-solution"></pre>
+    </section>
+
+    <script src="./src/add-number.js" type="module"></script>
+    <script src="./src/find-average.js" type="module"></script>
+    <script src="./src/find-sum.js" type="module"></script>
+    <script src="./src/remove-number.js" type="module"></script>
+    <script src="./src/show-numbers.js" type="module"></script>
+
+    <script src="./script.re.js" type="module"></script>
+  </body>
+</html>
