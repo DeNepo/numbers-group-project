@@ -1,3 +1,5 @@
+/* eslint-ignore */
+
 const _0x51856d = _0x4e5c;
 function _0x4e5c(n, t) {
   const d = _0xba21();
