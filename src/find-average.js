@@ -4,6 +4,8 @@ import { display } from '../lib/dom-io.js';
 
 import { average } from './utils/average.js';
 
-document.getElementById('__').addEventListener('click', () => {
+const findAverage = () => {
   debugger;
-});
+};
+
+document.getElementById('__').addEventListener('click', findAverage);

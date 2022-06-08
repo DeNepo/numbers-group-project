@@ -4,6 +4,10 @@ import { readNumber, display } from '../lib/dom-io.js';
 
 import { listItems } from './utils/list-items.js';
 
-document.getElementById('__').addEventListener('click', () => {
+debugger;
+
+const addNumber = () => {
   debugger;
-});
+};
+
+document.getElementById('__').addEventListener('click', addNumber);
