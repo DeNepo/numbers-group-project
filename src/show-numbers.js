@@ -1,4 +1,4 @@
-import { numbers } from '../data.js';
+import { numbers } from '../numbers.js';
 
 import { display } from '../lib/dom-io.js';
 
