@@ -11,7 +11,7 @@ const addNumber = () => {
 
   // read the user's number
 
-  // add it to the array of numbers
+  // add it to the array of numbers (data.numbers)
 
   // generate and display a string listing all numbers
 };
