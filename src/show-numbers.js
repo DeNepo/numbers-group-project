@@ -8,9 +8,10 @@ const showNumbers = () => {
   debugger;
 
   // generate a string list of all numbers (use the util!)
-
+const show = ('show-them', numbers)
   // display the list of numbers to the UI
+  display('your-output', show);
 };
 
 // !! fill in this blank with the correct DOM ID
-document.getElementById('__').addEventListener('click', showNumbers);
+document.getElementById('show-them').addEventListener('click', showNumbers);
